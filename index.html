@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bienvenidos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/css/styles.css">
+    <link rel="stylesheet" href="frontend/css/btns.css">
+    <link rel="stylesheet" href="frontend/css/waves.css">
+    <link rel="stylesheet" href="frontend/css/loader.css">
+    <link rel="stylesheet" href="frontend/css/media_queries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  </head>
+
+  <body>
+
+    <div class="lds-dual-ring loader" id="loader"></div>
+
+    <header data-aos="fade-down" data-aos-duration="1000">
+      <nav>
+        <input type="checkbox" id="side-menu-btn">
+        <label for="side-menu-btn" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="#home" class="logo">Dev<span>-Alejo</span></a>
+        <ul class="menu" id="menu">
+          <li class="options"><a class="btn-style" id="home-btn">Inicio</a></li>
+          <li class="options"><a class="btn-style" id="aboutme-btn">Sobre mi</a></li>
+          <li class="options"><a class="btn-style" id="tech-btn">Tecnologias</a></li>
+          <li class="options"><a class="btn-style" id="projects-btn">Proyectos</a></li>
+          <li class="options"><a class="btn-style" id="contact-btn">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
+
+		<main>
+			<div class="home" id="home">
+        <div class="welcome" data-aos="fade-up" data-aos-duration="1000">
+          <h3>¡Hola!, mi nombre es</h3>
+          <h1><span>Alejandro</span> Diaz</h1>
+          <h2>y soy estudiante de <span>Ingenieria Informatica</span></h2>
+        </div>
+        <img id="my-photo" src="frontend/img/myPhoto.jpeg" alt="Alejandro Jose Diaz Beltran" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="home-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="home-shape-fill"></path>
+          </svg>
+        </div>
+      </div>
+
+			<div class="about light-color" id="aboutme"
+        data-aos="fade-right"
+        data-aos-duration="500">
+        <div class="coder">
+          <h1>Un poco sobre <span>Mi</span></h1>
+          <img src="frontend/img/programmer.png" alt="Programmer">
+        </div>
+        <div class="about-me">
+          <p class="text">
+            Me considero una persona que le encanta experimentar, ademas me llama mucho la atencion la programacion, me parece muy interesante su funcionamiento, te desafía todos los días a resolver problemas con el código y poder mejorarlo, yo suelo practicar programacion en HTML, CSS y Javascript, sin embargo, algunos de mis objetivos son aprender nuevas funciones sobre estos lenguajes y seguir investigando en temas relacionados con la programación backend, DevOps, Cloud Computing para eventualmente aplicarlos en entornos empresariales y nuevos proyectos, por otro lado. Me gusta aprender cosas nuevas y seguir mejorando mis habilidades para construir nuevas herramientas que permitan solucionar cualquier necesidad.
+          </p>
+          <div class="hobbies">
+            <h3>Mis <span>Pasa tiempos</span></h3>
+            <ul>
+              <p>YouTube</p>
+              <p>Jugar con mi perro Mailo</p>
+              <p>One Piece</p>
+            </ul>
+          </div>
+        </div>
+			</div>
+
+			<div class="tech dark-color" id="tech"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <div class="top-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+
+        <h1>Mis <span>Tecnologias</span> y <span>Herramientas</span></h1>
+        <div class="tech-icons" id="tech-icons" data-aos="zoom-in-right" data-aos-duration="500"></div>
+        <div class="bottom-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
+        </div>
+      </div>
+
+			<div class="projects light-color"
+        id="projects"
+        data-aos="fade-right"
+        data-aos-duration="500">
+        <h1>Proyec<span>tos</span></h1>
+        <div class="container"
+          data-aos="zoom-in-left"
+          data-aos-duration="500">
+          <div class="container-list">
+            <div class="carousel_container">
+              <button aria-label="Previous" class="previous">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <div id="project-list" class="project-list"></div>
+              <button aria-label="Next" class="next">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div role="tablist" class="indicators"></div>
+          </div>
+        </div>
+			</div>
+
+			<div class="contact dark-color"
+        id="contact"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <div class="top-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+        <h1>Contacta<span>me</span></h1>
+        <div class="contact-box" data-aos="zoom-in-right" data-aos-duration="500">
+          <div class="left-side">
+            <img src="frontend/img/email.png" alt="email">
+          </div>
+          <div class="right-side">
+            <form id="form" action="https://festive-franklin-576549.netlify.app/.netlify/functions/index/api" method="POST">
+              <div class="info-required">
+                <label for="name">Nombre *</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required pattern="[a-zA-Z/\x20+/g]+">
+              </div>
+              <div class="info-required">
+                <label for="email">Correo *</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="on" required>
+              </div>
+              <div class="info-required">
+                <label for="phone">Numero de telefono</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number" autocomplete="on" pattern="[0-9]+" minlength="8" maxlength="10">
+              </div>
+              <div class="info-required">
+                <label for="message">Mensaje *</label>
+                <textarea type="text" name="message" id="message" placeholder="Enter message" rows="5" cols="33"></textarea>
+              </div>
+              <button class="light-btn" type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <div class="bottom-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="contact-shape-fill"></path>
+          </svg>
+        </div>
+			</div>
+    </main>
+
+    <footer>
+      <h1>Alejandro Jose Diaz Beltran<br>codificado con <img src="frontend/img/love.svg" alt="love"></h1>
+      <div class="sm-icons">
+        <a href="mailto:alejandrojdb42@gmail.com" target="_blank">
+          <img src="frontend/img/social media/gmail.svg" alt="gmail">
+        </a>
+        <a href="https://github.com/Dev-Alejo" target="_blank">
+          <img src="frontend/img/social media/github.svg" alt="github">
+        </a>
+        <a href="https://www.linkedin.com/in/alejandro-diaz-444746252/" target="_blank">
+          <img src="frontend/img/social media/linkedin.png" alt="linkedin">
+        </a>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="frontend/js/show_elements.js"></script>
+    <script type="text/javascript" src="frontend/js/navbar_btns_events.js"></script>
+    <script type="text/javascript" src="frontend/js/loader.js"></script>
+    <script type="text/javascript" src="frontend/js/api_rest/wp_init.js"></script>
+    <script type="text/javascript" src="frontend/js/api_rest/send_email.js"></script>
+    <script type="text/javascript" src="frontend/js/project_slide.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.15/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">AOS.init()</script>
+    
+  </body>
+</html>
